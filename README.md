@@ -1,7 +1,8 @@
+<h1 align="center">Ecoleta</h1>
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="300px" src="images\logo.png">
+    <img alt="app" title="#app" width="800px" src="images\app.jpg">
     <br><br>
-    <b>Recicle! ajude o meio ambiente!</b> 
+    <b>Contribua para um mundo melhor. Recicle!</b> 
 </h3>
 
 <p align="center">
@@ -10,83 +11,63 @@
   </a>
 </p>
 
-# Índice
-
-- [Sobre](#sobre)
-- [Documentação](#documentacao)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Como Usar](#como-usar)
-- [Como Contribuir](#como-contribuir)
-
 <a id="sobre"></a>
 
-## :bookmark: Sobre
+## Sobre
 
-O <strong>Ecoleta</strong> é uma aplicação Web e Mobile para ajudar pessoas a encontrarem pontos de coleta para reciclagem.
-
-Essa aplicação foi construída na trilha <strong>Booster</strong> da <strong>Next Level Week</strong> distribuída pela [Rocketseat](https://rocketseat.com.br/). A ideia de criar uma aplicação voltada ao meio ambiente surgiu da coincidência da data do curso e a data da <strong>semana do meio ambiente</strong>
-
-<a id="documentacao"></a>
-
-## :books: Documentação
-
-Para reforçar alguns conceitos e registrar comandos que são dificeis de se lembrar eu fiz uma pequena **[DOCUMENTAÇÃO](DOCUMENTATION.md)** para ajudar quem esta iniciando com **TypeScript**, **Node**, **ReactJS** e **React Native**. 
+O <strong>Ecoleta</strong> é uma aplicação que buscar ajudar as pessoas a encontrarem pontos de coletas para descartarem seus resíduos, possibilitando o cadastro de pontos de coleta na inteface web, estes são visualizados pelos usuários do aplicativo mobile.
 
 <a id="tecnologias-utilizadas"></a>
 
-## :rocket: Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [Node.js](https://nodejs.org/en/)
-- [ReactJS](https://reactjs.org/)
-- [React Native](https://reactnative.dev/)
+- Desenvolvimento: [TypeScript](https://www.typescriptlang.org/)
+- Back-end: [Node.js](https://nodejs.org/en/)
+  - [KnexJS](http://knexjs.org/)
+  - [Express](https://expressjs.com/pt-br/)
+  - [SQLite3](https://www.sqlite.org/docs.html)
+- Front-end: [ReactJS](https://reactjs.org/)
+  - [Leaflet](https://leafletjs.com/)
+  - [React-Leaflet](https://react-leaflet.js.org/)
+  - [Axios](https://github.com/axios/axios)
+- Mobile: [React Native](https://reactnative.dev/)
+  - [Expo](https://docs.expo.io/)
+  - [Axios](https://github.com/axios/axios)
+  - [React-Native-Picker-Select](https://www.npmjs.com/package/react-native-picker-select)
 
-<a id="como-usar"></a>
 
-## :fire: Como usar
+## Fotos da aplicação
+ <h2>Web</h2>
+<h3>
+  <li>Home</li>
+  <br>
+  <img  alt="home-web" title="#home-web" width="500px" src="images\home-web.jpg">
+  <br>
+  <li>Cadastro</li>
+  <br>
+  <img  alt="cadastro-web" title="#cadastro-web" width="500px" src="images\cadastro-web.jpg">
+  <br>
+</h3>
+<h2>Mobile</h2>
+<h3>
+  <li>Home</li>
+  <br>
+  <img  alt="home-mobile" title="#home-mobile" width="250px" src="images\home-mobile.jpg">
+  <br>
+  <li>Mapa com pontos de coleta</li>
+  <br>
+  <img  alt="mapa-mobile" title="#mapa-mobile" width="250px" src="images\mapa-mobile.jpg">
+  <br>
+  <li>Detalhes do ponto de coleta</li>
+  <br>
+  <img  alt="detalhes-mobile" title="#detalhes-mobile" width="250px" src="images\detalhes-mobile.jpg">
+  <br>
+</h3>
 
-- ### **Pré-requisitos**
 
-  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
-  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
-  - Por fim, é **essencial** ter o **[Expo](https://expo.io/)** instalado de forma global na máquina
 
-1. Faça um clone :
+## Licença
 
-```sh
-  $ git clone https://github.com/matheuskolln/ecoleta.git
-```
-
-2. Executando a Aplicação:
-
-```sh
-  # Instale as dependências
-  $ npm install
-
-  # Inicie a API
-  $ cd server
-  $ npm run dev
-
-  # Inicie a aplicação web
-  $ cd web
-  $ npm start
-
-  # Inicie a aplicação mobile
-  $ cd mobile
-  $ npm start
-```
-
-<a id="como-contribuir"></a>
-
-## :recycle: Como contribuir
-
-- Faça um Fork desse repositório,
-- Crie uma branch com a sua feature: `git checkout -b my-feature`
-- Commit suas mudanças: `git commit -m 'feat: My new feature'`
-- Push a sua branch: `git push origin my-feature`
-
-## :mortar_board: Quem ministrou?
-
-As aulas foram ministradas por **[Diego Fernandes](https://github.com/diego3g)** nas aulas da **Next Level Week**.
+[Rocketseat](https://rocketseat.com.br/)
